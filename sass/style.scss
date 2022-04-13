@@ -1,0 +1,48 @@
+@import './globol';
+/*
+- Font size (paragraph): 18px
+*/
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--very-dark-blue-main);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       
+
+    #contein {
+      width: 20%;
+      height: 80%;
+      background-color: var(--very-dark-blue-card);
+      border-radius: 1.5rem;  
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      #image {
+        width: 85%;
+        margin-top: 2rem;
+        
+        img {
+            width: 100%;
+            border-radius: .7rem;
+        }
+      }
+
+        #text {
+          width: 80%;
+         
+          h1 {
+            color: var(--white);
+          }
+        }
+    }
+
+  
+}
+

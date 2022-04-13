@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "responsivo.css",
+	"sources": [
+		"../sass/responsivo.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

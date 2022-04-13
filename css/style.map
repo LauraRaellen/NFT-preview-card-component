@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_globol.scss"
+	],
+	"sourcesContent": [
+		"@import './globol';\r\n/*\r\n- Font size (paragraph): 18px\r\n*/\r\n\r\n#container {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background-color: var(--very-dark-blue-main);\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n       \r\n\r\n    #contein {\r\n      width: 20%;\r\n      height: 80%;\r\n      background-color: var(--very-dark-blue-card);\r\n      border-radius: 1.5rem;  \r\n     \r\n      display: flex;\r\n      flex-direction: column;\r\n      align-items: center;\r\n      \r\n      #image {\r\n        width: 85%;\r\n        margin-top: 2rem;\r\n        \r\n        img {\r\n            width: 100%;\r\n            border-radius: .7rem;\r\n        }\r\n      }\r\n\r\n        #text {\r\n          width: 80%;\r\n         \r\n          h1 {\r\n            color: var(--white);\r\n          }\r\n        }\r\n    }\r\n\r\n  \r\n}\r\n\r\n",
+		"@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');\r\n\r\n* {\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root {\r\n     /* F O N T S  */\r\n        font-size: 62.5%;\r\n        --Outfit: \"Outfit\", sans-serif;\r\n\r\n\r\n    /* C O L O R*/\r\n        --very-dark-blue-main: hsl(217, 54%, 11%);\r\n\r\n        --very-dark-blue-card: hsl(216, 50%, 16%);\r\n\r\n        --very-dark-blue-line: hsl(215, 32%, 27%);\r\n        --white: hsl(0, 0%, 100%);\r\n    \r\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,OAAO,CAAC,oFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;;AAED,AAAA,KAAK,CAAC;EACD,gBAAgB;EACb,SAAS,EAAE,KAAK;EAChB,QAAQ,CAAA,qBAAC;EAGb,cAAc;EACV,qBAAqB,CAAA,mBAAC;EAEtB,qBAAqB,CAAA,mBAAC;EAEtB,qBAAqB,CAAA,mBAAC;EACtB,OAAO,CAAA,iBAAC;CAEf;;ADrBD;;EAEE;;AAEF,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,0BAA0B;EAE5C,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CAiCzB;;;AAzCD,AAWI,UAXM,CAWN,QAAQ,CAAC;EACP,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,0BAA0B;EAC5C,aAAa,EAAE,MAAM;EAErB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CAmBpB;;;AAtCL,AAqBM,UArBI,CAWN,QAAQ,CAUN,MAAM,CAAC;EACL,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,IAAI;CAMjB;;;AA7BP,AAyBQ,UAzBE,CAWN,QAAQ,CAUN,MAAM,CAIJ,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,KAAK;CACvB;;;AA5BT,AA+BQ,UA/BE,CAWN,QAAQ,CAoBJ,KAAK,CAAC;EACJ,KAAK,EAAE,GAAG;CAKX;;;AArCT,AAkCU,UAlCA,CAWN,QAAQ,CAoBJ,KAAK,CAGH,EAAE,CAAC;EACD,KAAK,EAAE,YAAY;CACpB"
+}
