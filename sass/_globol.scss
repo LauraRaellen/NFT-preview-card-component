@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
 
 * {
     padding: 0;
@@ -13,11 +13,17 @@
 
 
     /* C O L O R*/
+
+        --Soft-blue: hsl(215, 51%, 70%);
+
+        --Cyan: hsl(178, 100%, 50%);
+        
         --very-dark-blue-main: hsl(217, 54%, 11%);
 
         --very-dark-blue-card: hsl(216, 50%, 16%);
 
-        --very-dark-blue-line: hsl(215, 32%, 27%);
+        --very-dark-blue-line: hsl(215, 26%, 42%);
+
         --white: hsl(0, 0%, 100%);
     
 }

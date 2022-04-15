@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "responsivo.css",
 	"sources": [
-		"../sass/responsivo.scss"
+		"../sass/responsivo.scss",
+		"../sass/_globol.scss"
 	],
 	"sourcesContent": [
-		""
+		"@import './globol';\r\n@media (max-width: 1028px) {\r\n    #contein {\r\n        width: 5rem;\r\n    }\r\n}",
+		"@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');\r\n\r\n* {\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root {\r\n     /* F O N T S  */\r\n        font-size: 62.5%;\r\n        --Outfit: \"Outfit\", sans-serif;\r\n\r\n\r\n    /* C O L O R*/\r\n\r\n        --Soft-blue: hsl(215, 51%, 70%);\r\n\r\n        --Cyan: hsl(178, 100%, 50%);\r\n        \r\n        --very-dark-blue-main: hsl(217, 54%, 11%);\r\n\r\n        --very-dark-blue-card: hsl(216, 50%, 16%);\r\n\r\n        --very-dark-blue-line: hsl(215, 26%, 42%);\r\n\r\n        --white: hsl(0, 0%, 100%);\r\n    \r\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";ACAA,OAAO,CAAC,wFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;;AAED,AAAA,KAAK,CAAC;EACD,gBAAgB;EACb,SAAS,EAAE,KAAK;EAChB,QAAQ,CAAA,qBAAC;EAGb,cAAc;EAEV,WAAW,CAAA,mBAAC;EAEZ,MAAM,CAAA,oBAAC;EAEP,qBAAqB,CAAA,mBAAC;EAEtB,qBAAqB,CAAA,mBAAC;EAEtB,qBAAqB,CAAA,mBAAC;EAEtB,OAAO,CAAA,iBAAC;CAEf;;AD3BD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACrB,AAAA,QAAQ,CAAC;IACL,KAAK,EAAE,IAAI;GACd"
 }

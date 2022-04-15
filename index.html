@@ -5,16 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsivo.css">
-
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsivo.css" />
 
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
@@ -22,30 +16,55 @@
   <body>
 
     <div id="container">
-      
+
       <div id="contein">
 
         <div id="image">
-          
-          <img src="./images/image-equilibrium.jpg" alt="">
+            
+            <img src="./images/image-equilibrium.jpg" alt="" id="equilibrium" class="img"/>
 
-        </div><!-- END IMAGE -->
+              <img src="./images/icon-view.svg" alt="" id="view" class="img">
+            
+         
+        </div>
         
+        <!-- END IMAGE -->
+
         <div id="text">
 
           <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <!-- END TEXT -->
 
-        </div><!-- END TEXT -->
+        <div id="icons">
+          
+          <div id="icon-1">
+            <img src="./images/icon-ethereum.svg" alt="" />
+            <p>0.041ETH</p>
+          </div>
 
-      </div> <!-- END CONTAIN -->
+          <div id="icon-2">
+            <img src="./images/icon-clock.svg" alt="">
+            <p>3 days left</p>
+          </div>
+        </div>
+
+        <div id="user">
+          <img src="./images/image-avatar.png" alt="">
+          <p><span>Creation of</span> Jules Wyverm</p>
+        </div>
+
+      </div>
+      <!-- END CONTAIN -->
 
       <div id="attribution">
         Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Laura Raellen Feitosa Cabral</a>.
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Laura Raellen Feitosa Cabral</a>.
       </div>
 
-      </div><!-- END CONTAINER -->
+    </div><!-- END CONTAINER -->
   </body>
 </html>

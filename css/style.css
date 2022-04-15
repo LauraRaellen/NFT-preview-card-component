@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap");
 /* line 3, ../Users/Familía/Desktop/meu 2 site/sass/_globol.scss */
 * {
   padding: 0;
@@ -13,9 +13,11 @@
   font-size: 62.5%;
   --Outfit: "Outfit", sans-serif;
   /* C O L O R*/
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
   --very-dark-blue-main: hsl(217, 54%, 11%);
   --very-dark-blue-card: hsl(216, 50%, 16%);
-  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --very-dark-blue-line: hsl(215, 26%, 42%);
   --white: hsl(0, 0%, 100%);
 }
 
@@ -35,8 +37,8 @@
 
 /* line 17, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
 #container #contein {
-  width: 20%;
-  height: 80%;
+  width: 28rem;
+  height: 46rem;
   background-color: var(--very-dark-blue-card);
   border-radius: 1.5rem;
   display: flex;
@@ -44,26 +46,139 @@
   align-items: center;
 }
 
-/* line 27, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+/* line 28, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
 #container #contein #image {
-  width: 85%;
+  width: 23rem;
+  height: 23rem;
   margin-top: 2rem;
+  border-radius: .7rem;
+  position: relative;
 }
 
-/* line 31, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
-#container #contein #image img {
+/* line 35, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #image #equilibrium {
   width: 100%;
   border-radius: .7rem;
+  cursor: pointer;
 }
 
-/* line 37, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+/* line 43, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #image #view {
+  position: absolute;
+  margin-top: 9.5rem;
+  right: 9.5rem;
+  opacity: 0;
+}
+
+/* line 49, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #image #view:hover {
+  opacity: 1;
+  transition: 1.1s;
+  cursor: pointer;
+}
+
+/* line 61, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
 #container #contein #text {
   width: 80%;
 }
 
-/* line 40, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+/* line 64, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
 #container #contein #text h1 {
+  font-size: 1.8rem;
   color: var(--white);
+  font-family: var(--Outfit);
+  margin: 1rem 0;
+}
+
+/* line 71, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #text p {
+  font-size: 1.3rem;
+  font-family: var(--Outfit);
+  font-weight: 600;
+  color: var(--very-dark-blue-line);
+  line-height: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+/* line 82, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #icons {
+  width: 80%;
+  display: flex;
+  border-bottom: 0.05rem solid rgba(79, 102, 135, 0.203);
+  padding-bottom: 2rem;
+}
+
+/* line 88, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #icons #icon-2 {
+  justify-content: end;
+}
+
+/* line 92, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #icons #icon-1, #container #contein #icons #icon-2 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 2rem;
+}
+
+/* line 100, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #icons #icon-1 img, #container #contein #icons #icon-2 img {
+  padding: 0 1rem 0 0;
+}
+
+/* line 105, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #icons #icon-1 p, #container #contein #icons #icon-2 p {
+  font-family: var(--Outfit);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--very-dark-blue-line);
+}
+
+/* line 112, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #icons #icon-1 p {
+  color: var(--Cyan);
+}
+
+/* line 117, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #user {
+  margin: 1.5rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+/* line 125, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #user img {
+  width: 3rem;
+  border: 1px solid var(--white);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* line 132, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #user p {
+  color: var(--white);
+  font-size: 1.3rem;
+  font-family: var(--Outfit);
+  font-weight: 400;
+  padding: 0 0 0 1rem;
+  cursor: pointer;
+}
+
+/* line 142, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #contein #user span {
+  color: var(--very-dark-blue-line);
+}
+
+/* line 148, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #attribution {
+  color: white;
+}
+
+/* line 151, ../Users/Familía/Desktop/meu 2 site/sass/style.scss */
+#container #attribution a {
+  color: var(--very-dark-blue-line);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
